@@ -7,7 +7,7 @@ public class ExemploFunction {
         Function<Integer, String> conversor = new Function<Integer, String>() {
             @Override
             public String apply(Integer numero) {
-                return "Número: " + numero;
+                return numero.toString();
             }
         };
         System.out.println(conversor.apply(10));
